@@ -7,8 +7,8 @@
     <script>
 		const action = getQueryParameter('action');
         // Attempt to open the custom protocol
-        //window.location.href = 'ms-contact-support://settings/AudioTroubleshooter';
-		window.location.href = 'ms-contact-support://' + action;
+        window.location.href = 'ms-contact-support://settings/AudioTroubleshooter';
+		//window.location.href = 'ms-contact-support://' + action;
 
         // Fallback: After 1 second, redirect to a standard HTTP page if the protocol fails
         //setTimeout(function() {
